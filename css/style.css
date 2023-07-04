@@ -1,0 +1,106 @@
+h1 {
+    font-family: 'Caprasimo', cursive;
+    color: #FCA311;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: #14213D;
+    font-size: 40px;
+    border-bottom: solid 2px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FCA311;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: #14213D;
+}
+
+#h4-span {
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #14213D;
+}
+
+#title {
+    background-color: #14213D;
+}
+
+#about-me {
+    background-color: #E5E5E5;
+}
+
+#about-me img {
+    height: 250px;
+    border-radius: 50%;
+}
+
+#projects {
+    background-color:#14213D;
+}
+
+#projects h2, #contact-me h2 {
+    color:#E5E5E5;
+}
+
+#skills {
+    background-color: #E5E5E5;
+}
+
+#experience {
+    border-bottom: none;
+}
+
+.card-body {
+    background-color: #E5E5E5;
+}
+
+footer {
+    background-color: #FCA311;
+    height: auto;
+}
+
+footer > p {
+    color: #14213D;
+    font-weight: bold;
+    margin: 0;
+}
+
+#title img {
+    height: 300px;
+}
+
+#contact-me {
+    background-color: #14213D;
+}
+
+#contact-me p {
+    color: #E5E5E5;
+}
+
+#contact-span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.skills-span {
+    font-weight: bold;
+}
+
+@media (max-width: 420px) {
+    #title img {
+        height: auto;
+    }
+}
